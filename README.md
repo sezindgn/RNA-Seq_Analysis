@@ -12,13 +12,14 @@ Genotype name : Micro tom
 Tissue:Seedling
 Stress type : None / Salt 
 
-Raw Data: https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA476376
-           https://www.ncbi.nlm.nih.gov/sra/?term=SRR7349520 -none
-           https://www.ncbi.nlm.nih.gov/sra/?term=SRR7349521 -none
-           https://www.ncbi.nlm.nih.gov/sra/?term=SRR7349518 -none
-           https://www.ncbi.nlm.nih.gov/sra/?term=SRR7349522 -salt
-           https://www.ncbi.nlm.nih.gov/sra/?term=SRR7349523 -salt
-           https://www.ncbi.nlm.nih.gov/sra/?term=SRR7349527 -salt
+Raw Data: 
+https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA476376
+https://www.ncbi.nlm.nih.gov/sra/?term=SRR7349520 -none
+https://www.ncbi.nlm.nih.gov/sra/?term=SRR7349521 -none
+https://www.ncbi.nlm.nih.gov/sra/?term=SRR7349518 -none
+https://www.ncbi.nlm.nih.gov/sra/?term=SRR7349522 -salt
+https://www.ncbi.nlm.nih.gov/sra/?term=SRR7349523 -salt
+https://www.ncbi.nlm.nih.gov/sra/?term=SRR7349527 -salt
 
 FASTQ files were downloaded from: https://www.ebi.ac.uk/ena/browser/view/PRJNA476376
 
