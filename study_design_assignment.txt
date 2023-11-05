@@ -1,0 +1,7 @@
+sample	sra_accession	group
+S01	SRR7349522	salt
+S02	SRR7349523	salt
+S03	SRR7349527	salt
+C01	SRR7349520	control
+C02	SRR7349521	control
+C03	SRR7349518	control
