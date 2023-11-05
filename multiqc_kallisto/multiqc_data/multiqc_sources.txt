@@ -1,0 +1,13 @@
+Module	Section	Sample Name	Source
+Kallisto	all_sections	SRR7349522	/home/ibg-4/multiqc_kallisto/S01.log
+Kallisto	all_sections	SRR7349520	/home/ibg-4/multiqc_kallisto/C01.log
+Kallisto	all_sections	SRR7349523	/home/ibg-4/multiqc_kallisto/S02.log
+Kallisto	all_sections	SRR7349527	/home/ibg-4/multiqc_kallisto/S03.log
+Kallisto	all_sections	SRR7349518	/home/ibg-4/multiqc_kallisto/C03.log
+Kallisto	all_sections	SRR7349521	/home/ibg-4/multiqc_kallisto/C02.log
+FastQC	all_sections	SRR7349518	/home/ibg-4/multiqc_kallisto/SRR7349518_trimmed_fastqc.zip
+FastQC	all_sections	SRR7349521	/home/ibg-4/multiqc_kallisto/SRR7349521_trimmed_fastqc.zip
+FastQC	all_sections	SRR7349523	/home/ibg-4/multiqc_kallisto/SRR7349523_trimmed_fastqc.zip
+FastQC	all_sections	SRR7349520	/home/ibg-4/multiqc_kallisto/SRR7349520_trimmed_fastqc.zip
+FastQC	all_sections	SRR7349522	/home/ibg-4/multiqc_kallisto/SRR7349522_trimmed_fastqc.zip
+FastQC	all_sections	SRR7349527	/home/ibg-4/multiqc_kallisto/SRR7349527_trimmed_fastqc.zip
