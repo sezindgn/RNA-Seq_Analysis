@@ -1,0 +1,7 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	SRR7349521	/home/ibg-4/multiqc_untrimmed/SRR7349521_fastqc.zip
+FastQC	all_sections	SRR7349523	/home/ibg-4/multiqc_untrimmed/SRR7349523_fastqc.zip
+FastQC	all_sections	SRR7349518	/home/ibg-4/multiqc_untrimmed/SRR7349518_fastqc.zip
+FastQC	all_sections	SRR7349520	/home/ibg-4/multiqc_untrimmed/SRR7349520_fastqc.zip
+FastQC	all_sections	SRR7349522	/home/ibg-4/multiqc_untrimmed/SRR7349522_fastqc.zip
+FastQC	all_sections	SRR7349527	/home/ibg-4/multiqc_untrimmed/SRR7349527_fastqc.zip
