@@ -1,0 +1,24 @@
+#This text file consists of the steps that are necessary for RNASeq data analysis.
+
+
+# STEP 1  
+# a) Get a script that will download the required 6 FASTQ files of the data source using wget by NCBI BioProject accession(PRJNA476376) from the European NUcleotide Archive
+# The files were downloaded under the assignment directory that I created.
+(base) ibg-4@ibg4-LIFEBOOK-A3510:~/assignment$ wget -nc ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR734/000/SRR7349520/SRR7349520.fastq.gz
+(base) ibg-4@ibg4-LIFEBOOK-A3510:~/assignment$ wget -nc ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR734/001/SRR7349521/SRR7349521.fastq.gz
+(base) ibg-4@ibg4-LIFEBOOK-A3510:~/assignment$ wget -nc ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR734/008/SRR7349518/SRR7349518.fastq.gz
+(base) ibg-4@ibg4-LIFEBOOK-A3510:~/assignment$ wget -nc ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR734/002/SRR7349522/SRR7349522.fastq.gz
+(base) ibg-4@ibg4-LIFEBOOK-A3510:~/assignment$ wget -nc ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR734/003/SRR7349523/SRR7349523.fastq.gz
+(base) ibg-4@ibg4-LIFEBOOK-A3510:~/assignment$ wget -nc ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR734/007/SRR7349527/SRR7349527.fastq.gz
+
+
+# b) Produce a quality analysis report on raw sequence files(FastQ) from the assignment directory by using the FASTQC tool.
+(base) ibg-4@ibg4-LIFEBOOK-A3510:~/assignment$ fastqc -o ~/assignment/ -t 8 SRR7349520.fastq.gz 
+(base) ibg-4@ibg4-LIFEBOOK-A3510:~/assignment$ fastqc -o ~/assignment/ -t 8 SRR7349521.fastq.gz
+(base) ibg-4@ibg4-LIFEBOOK-A3510:~/assignment$ fastqc -o ~/assignment/ -t 8 SRR7349518.fastq.gz
+(base) ibg-4@ibg4-LIFEBOOK-A3510:~/assignment$ fastqc -o ~/assignment/ -t 8 SRR7349522.fastq.gz
+(base) ibg-4@ibg4-LIFEBOOK-A3510:~/assignment$ fastqc -o ~/assignment/ -t 8 SRR7349523.fastq.gz
+(base) ibg-4@ibg4-LIFEBOOK-A3510:~/assignment$ fastqc -o ~/assignment/ -t 8 SRR7349527.fastq.gz
+
+# c) MultiQC analysis of untrimmed files from the generated directory that consists of the raw data
+(base) ibg-4@ibg4-LIFEBOOK-A3510:~/multiqc_untrimmed$ multiqc -d .
