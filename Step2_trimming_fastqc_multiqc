@@ -1,0 +1,22 @@
+# STEP 2 
+# a) Trimming the files as a result of the fastqc analysis in order to improve the quality of the data by removing the contamination
+(base) ibg-4@ibg4-LIFEBOOK-A3510:~/assignment$ java -jar ~/assignment/Trimmomatic-0.39/trimmomatic-0.39.jar SE -threads 8 SRR7349518.fastq.gz SRR7349518_trimmed.fastq.gz ILLUMINACLIP:TruSeq3-SE.fa:2:30:10 HEADCROP:12 SLIDINGWINDOW:4:15 MINLEN:25
+(base) ibg-4@ibg4-LIFEBOOK-A3510:~/assignment$ java -jar ~/assignment/Trimmomatic-0.39/trimmomatic-0.39.jar SE -threads 8 SRR7349520.fastq.gz SRR7349520_trimmed.fastq.gz ILLUMINACLIP:TruSeq3-SE.fa:2:30:10 HEADCROP:12 SLIDINGWINDOW:4:15 MINLEN:25
+(base) ibg-4@ibg4-LIFEBOOK-A3510:~/assignment$ java -jar ~/assignment/Trimmomatic-0.39/trimmomatic-0.39.jar SE -threads 8 SRR7349521.fastq.gz SRR7349521_trimmed.fastq.gz ILLUMINACLIP:TruSeq3-SE.fa:2:30:10 HEADCROP:12 SLIDINGWINDOW:4:15 MINLEN:25
+(base) ibg-4@ibg4-LIFEBOOK-A3510:~/assignment$ java -jar ~/assignment/Trimmomatic-0.39/trimmomatic-0.39.jar SE -threads 8 SRR7349522.fastq.gz SRR7349522_trimmed.fastq.gz ILLUMINACLIP:TruSeq3-SE.fa:2:30:10 HEADCROP:12 SLIDINGWINDOW:4:15 MINLEN:25
+(base) ibg-4@ibg4-LIFEBOOK-A3510:~/assignment$ java -jar ~/assignment/Trimmomatic-0.39/trimmomatic-0.39.jar SE -threads 8 SRR7349523.fastq.gz SRR7349523_trimmed.fastq.gz ILLUMINACLIP:TruSeq3-SE.fa:2:30:10 HEADCROP:12 SLIDINGWINDOW:4:15 MINLEN:25
+(base) ibg-4@ibg4-LIFEBOOK-A3510:~/assignment$ java -jar ~/assignment/Trimmomatic-0.39/trimmomatic-0.39.jar SE -threads 8 SRR7349527.fastq.gz SRR7349527_trimmed.fastq.gz ILLUMINACLIP:TruSeq3-SE.fa:2:30:10 HEADCROP:12 SLIDINGWINDOW:4:15 MINLEN:25
+
+
+# b) FASTQC analysis of the trimmed files
+(base) ibg-4@ibg4-LIFEBOOK-A3510:~/assignment$ fastqc -o ~/assignment/ -t 8 SRR7349518_trimmed.fastq.gz
+(base) ibg-4@ibg4-LIFEBOOK-A3510:~/assignment$ fastqc -o ~/assignment/ -t 8 SRR7349520_trimmed.fastq.gz
+(base) ibg-4@ibg4-LIFEBOOK-A3510:~/assignment$ fastqc -o ~/assignment/ -t 8 SRR7349521_trimmed.fastq.gz
+(base) ibg-4@ibg4-LIFEBOOK-A3510:~/assignment$ fastqc -o ~/assignment/ -t 8 SRR7349522_trimmed.fastq.gz
+(base) ibg-4@ibg4-LIFEBOOK-A3510:~/assignment$ fastqc -o ~/assignment/ -t 8 SRR7349523_trimmed.fastq.gz
+(base) ibg-4@ibg4-LIFEBOOK-A3510:~/assignment$ fastqc -o ~/assignment/ -t 8 SRR7349527_trimmed.fastq.gz
+# The line above also used for the other files by only changing the Sequence Read Archive (SRA) accession number.
+
+
+# c) MultiQC analysis of trimmed files from the generated directory 
+(base) ibg-4@ibg4-LIFEBOOK-A3510:~/multiqc_trimmed$ multiqc -d .
