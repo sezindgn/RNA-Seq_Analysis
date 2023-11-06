@@ -1,8 +1,8 @@
-User library
+
 R Version:rstudio-2023.09.0-463-amd64.deb
 
 # All R libraries with their versions to install:
-
+-----------User library------------------
 library(tidyverse) # provides access to Hadley Wickham's collection of R packages for data science, which we will use throughout the course  Version : 2.0.0
 ─ Attaching core tidyverse packages ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────── tidyverse 2.0.0 ──
 ✔ dplyr     1.1.3     ✔ readr     2.1.4
@@ -37,7 +37,7 @@ library(heatmaply) Version : 1.4.2
 
 library(gprofiler2) #tools for accessing the GO enrichment results using g:Profiler web resources Version: 0.2.2
 
---------------System Library
+--------------System Library-----------------
 AnnotationDbi Version: 1.62.2
 AnnotationFilter  1.24.0
 base 4.3.1
