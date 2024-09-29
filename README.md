@@ -2,13 +2,13 @@
 RNA-Seq Analyis (QBIO304:APPLIED BIOINFORMATICS)
 
 Reference Study:
-Keshishian EA, Hallmark HT, Ramaraj T, Plačková L, Sundararajan A, Schilkey F, Novák O, Rashotte AM. Salt and oxidative stresses uniquely regulate tomato cytokinin levels and transcriptomic response. Plant Direct. 2018 Jul 19;2(7):e00071. doi: 10.1002/pld3.71. PMID: 31245735; PMCID: PMC6508850.
+- Keshishian EA, Hallmark HT, Ramaraj T, Plačková L, Sundararajan A, Schilkey F, Novák O, Rashotte AM. Salt and oxidative stresses uniquely regulate tomato cytokinin levels and transcriptomic response. Plant Direct. 2018 Jul 19;2(7):e00071. doi: 10.1002/pld3.71. PMID: 31245735; PMCID: PMC6508850.
 
-NCBI BioProject Accession: PRJNA476376
-Species: Solanum lycopersicum
-Genotype name : Micro tom
-Tissue:Seedling
-Stress type : None / Salt 
+- NCBI BioProject Accession: PRJNA476376
+- Species: Solanum lycopersicum
+- Genotype name : Micro tom
+- Tissue:Seedling
+- Stress type : None / Salt 
 
 Raw Data: 
 https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA476376
